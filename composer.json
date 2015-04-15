@@ -1,0 +1,21 @@
+{
+    "name": "codeinabox/scraper-console-test",
+    "authors": [
+        {
+            "name": "Mathew Attlee",
+            "email": "hello@codeinabox.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "fabpot/goutte": "~2.0",
+        "pimple/pimple": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.5",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "psr-0": { "SainsburysScraper": "src/" }
+    }
+}
